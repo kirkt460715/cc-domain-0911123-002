@@ -7,4 +7,5 @@ __pycache__/
 *.sqlite3
 *.db
 vault-data/
+spm-state/
 .DS_Store

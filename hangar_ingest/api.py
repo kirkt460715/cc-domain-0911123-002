@@ -8,13 +8,19 @@ from hangar_ingest.exports.contracts import DeliveryContracts
 
 
 class Application:
-    def __init__(self, db):
+    def __init__(self, db, spm_state_directory=None):
         self.db = db
         self.pipeline = Pipeline(db)
         self.delivery = DeliveryContracts(db)
         self.receiver = transfer.Receiver(db)
         from hangar_ingest.runs.manifests import SourceReconciliation
         self.sources = SourceReconciliation(db)
+        # SPM 检查点与版本日志目录；默认放在工作目录下的本地路径，可在测试中注入临时目录。
+        if spm_state_directory is None:
+            import os
+            spm_state_directory = os.environ.get('HANGAR_SPM_STATE_DIR', 'spm-state')
+        from hangar_ingest.spm.service import MonitoringService
+        self.spm = MonitoringService(db, spm_state_directory)
         self.operations = {
             'preflight.source': (preflight.source_configuration, {'source', 'start', 'end'}, set()),
             'preflight.inventory': (preflight.device_inventory, set(), set()),
@@ -99,6 +105,22 @@ class Application:
             'inspect.lineage': (inspection.lineage, {'release_id'}, set()),
             'journal.verify': (journal.verify, set(), set()),
             'journal.page': (journal.page, set(), {'after', 'limit'}),
+            'spm.plan.define': (self._spm_define, {'config'}, set()),
+            'spm.plan.get': (self._spm_get, {'plan_id'}, set()),
+            'spm.run': (
+                self._spm_run,
+                {'plan_id', 'window_start', 'window_end'},
+                {'batch_size', 'include_warnings', 'source', 'external_id'},
+            ),
+            'spm.acknowledge': (
+                self._spm_acknowledge, {'plan_id', 'chart', 'side', 'note'}, {'at'},
+            ),
+            'spm.replay': (
+                self._spm_replay,
+                {'plan_id', 'window_start', 'window_end', 'label'},
+                {'include_warnings', 'source', 'external_id'},
+            ),
+            'spm.report': (self._spm_report, {'plan_id'}, set()),
         }
         self.bound = {
             'source.register': (self.sources.register, {'manifest_id', 'source', 'start', 'end', 'events'}, {'revision'}),
@@ -149,6 +171,29 @@ class Application:
 
     def commands(self):
         return sorted(set(self.operations) | set(self.bound) | {'batch.stage', 'package.verify', 'units.list'})
+
+    # ------------------------------------------------------------------ #
+    # SPM 操作包装：检查点/版本日志由 MonitoringService 管理。
+    # ------------------------------------------------------------------ #
+    def _spm_define(self, _db, config):
+        return self.spm.define_plan(config)
+
+    def _spm_get(self, _db, plan_id):
+        return self.spm.get_plan(plan_id)
+
+    def _spm_run(self, _db, plan_id, window_start, window_end, **options):
+        return self.spm.run(plan_id, window_start=window_start,
+                            window_end=window_end, **options)
+
+    def _spm_acknowledge(self, _db, plan_id, chart, side, note, at=None):
+        return self.spm.acknowledge(plan_id, chart, side, note=note, at=at)
+
+    def _spm_replay(self, _db, plan_id, window_start, window_end, label, **options):
+        return self.spm.replay(plan_id, window_start=window_start,
+                               window_end=window_end, label=label, **options)
+
+    def _spm_report(self, _db, plan_id):
+        return self.spm.report(plan_id)
 
     def batch(self, commands):
         if not isinstance(commands, list) or len(commands) > 1000:
