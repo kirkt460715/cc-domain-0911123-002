@@ -1,0 +1,684 @@
+{
+  "synthetic": true,
+  "records": [
+    {
+      "device": "sensor1",
+      "event_id": "event-0",
+      "observed_at": "2026-11-11T00:00:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-1",
+      "observed_at": "2026-11-11T00:01:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-2",
+      "observed_at": "2026-11-11T00:02:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-3",
+      "observed_at": "2026-11-11T00:03:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-4",
+      "observed_at": "2026-11-11T00:04:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-5",
+      "observed_at": "2026-11-11T00:05:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-6",
+      "observed_at": "2026-11-11T00:06:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-7",
+      "observed_at": "2026-11-11T00:07:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-8",
+      "observed_at": "2026-11-11T00:08:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-9",
+      "observed_at": "2026-11-11T00:09:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-10",
+      "observed_at": "2026-11-11T00:10:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-11",
+      "observed_at": "2026-11-11T00:11:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-12",
+      "observed_at": "2026-11-11T00:12:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-13",
+      "observed_at": "2026-11-11T00:13:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-14",
+      "observed_at": "2026-11-11T00:14:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-15",
+      "observed_at": "2026-11-11T00:15:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-16",
+      "observed_at": "2026-11-11T00:16:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-17",
+      "observed_at": "2026-11-11T00:17:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-18",
+      "observed_at": "2026-11-11T00:18:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-19",
+      "observed_at": "2026-11-11T00:19:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-20",
+      "observed_at": "2026-11-11T00:20:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-21",
+      "observed_at": "2026-11-11T00:21:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-22",
+      "observed_at": "2026-11-11T00:22:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-23",
+      "observed_at": "2026-11-11T00:23:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-24",
+      "observed_at": "2026-11-11T00:24:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-25",
+      "observed_at": "2026-11-11T00:25:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-26",
+      "observed_at": "2026-11-11T00:26:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-27",
+      "observed_at": "2026-11-11T00:27:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-28",
+      "observed_at": "2026-11-11T00:28:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-29",
+      "observed_at": "2026-11-11T00:29:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-30",
+      "observed_at": "2026-11-11T00:30:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-31",
+      "observed_at": "2026-11-11T00:31:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-32",
+      "observed_at": "2026-11-11T00:32:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-33",
+      "observed_at": "2026-11-11T00:33:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-34",
+      "observed_at": "2026-11-11T00:34:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-35",
+      "observed_at": "2026-11-11T00:35:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-36",
+      "observed_at": "2026-11-11T00:36:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-37",
+      "observed_at": "2026-11-11T00:37:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-38",
+      "observed_at": "2026-11-11T00:38:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-39",
+      "observed_at": "2026-11-11T00:39:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-40",
+      "observed_at": "2026-11-11T00:40:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-41",
+      "observed_at": "2026-11-11T00:41:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-42",
+      "observed_at": "2026-11-11T00:42:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-43",
+      "observed_at": "2026-11-11T00:43:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-44",
+      "observed_at": "2026-11-11T00:44:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-45",
+      "observed_at": "2026-11-11T00:45:00+00:00",
+      "unit": "C",
+      "value": "26.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-46",
+      "observed_at": "2026-11-11T00:46:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-47",
+      "observed_at": "2026-11-11T00:47:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-48",
+      "observed_at": "2026-11-11T00:48:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-49",
+      "observed_at": "2026-11-11T00:49:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-50",
+      "observed_at": "2026-11-11T00:50:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-51",
+      "observed_at": "2026-11-11T00:51:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-52",
+      "observed_at": "2026-11-11T00:52:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-53",
+      "observed_at": "2026-11-11T00:53:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-54",
+      "observed_at": "2026-11-11T00:54:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-55",
+      "observed_at": "2026-11-11T00:55:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-56",
+      "observed_at": "2026-11-11T00:56:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-57",
+      "observed_at": "2026-11-11T00:57:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-58",
+      "observed_at": "2026-11-11T00:58:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-59",
+      "observed_at": "2026-11-11T00:59:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-63",
+      "observed_at": "2026-11-11T01:03:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-64",
+      "observed_at": "2026-11-11T01:04:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-65",
+      "observed_at": "2026-11-11T01:05:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-66",
+      "observed_at": "2026-11-11T01:06:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-67",
+      "observed_at": "2026-11-11T01:07:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-68",
+      "observed_at": "2026-11-11T01:08:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-69",
+      "observed_at": "2026-11-11T01:09:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-70",
+      "observed_at": "2026-11-11T01:10:00+00:00",
+      "unit": "C",
+      "value": "21.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-71",
+      "observed_at": "2026-11-11T01:11:00+00:00",
+      "unit": "C",
+      "value": "21.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-72",
+      "observed_at": "2026-11-11T01:12:00+00:00",
+      "unit": "C",
+      "value": "21.30"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-73",
+      "observed_at": "2026-11-11T01:13:00+00:00",
+      "unit": "C",
+      "value": "21.40"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-74",
+      "observed_at": "2026-11-11T01:14:00+00:00",
+      "unit": "C",
+      "value": "21.50"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-75",
+      "observed_at": "2026-11-11T01:15:00+00:00",
+      "unit": "C",
+      "value": "21.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-76",
+      "observed_at": "2026-11-11T01:16:00+00:00",
+      "unit": "C",
+      "value": "21.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-77",
+      "observed_at": "2026-11-11T01:17:00+00:00",
+      "unit": "C",
+      "value": "21.30"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-78",
+      "observed_at": "2026-11-11T01:18:00+00:00",
+      "unit": "C",
+      "value": "21.40"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-79",
+      "observed_at": "2026-11-11T01:19:00+00:00",
+      "unit": "C",
+      "value": "21.50"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-80",
+      "observed_at": "2026-11-11T01:20:00+00:00",
+      "unit": "C",
+      "value": "21.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-81",
+      "observed_at": "2026-11-11T01:21:00+00:00",
+      "unit": "C",
+      "value": "21.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-82",
+      "observed_at": "2026-11-11T01:22:00+00:00",
+      "unit": "C",
+      "value": "21.30"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-83",
+      "observed_at": "2026-11-11T01:23:00+00:00",
+      "unit": "C",
+      "value": "21.40"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-84",
+      "observed_at": "2026-11-11T01:24:00+00:00",
+      "unit": "C",
+      "value": "21.50"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-85",
+      "observed_at": "2026-11-11T01:25:00+00:00",
+      "unit": "C",
+      "value": "21.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-86",
+      "observed_at": "2026-11-11T01:26:00+00:00",
+      "unit": "C",
+      "value": "21.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-87",
+      "observed_at": "2026-11-11T01:27:00+00:00",
+      "unit": "C",
+      "value": "21.30"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-88",
+      "observed_at": "2026-11-11T01:28:00+00:00",
+      "unit": "C",
+      "value": "21.40"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-89",
+      "observed_at": "2026-11-11T01:29:00+00:00",
+      "unit": "C",
+      "value": "21.50"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-90",
+      "observed_at": "2026-11-11T01:30:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-91",
+      "observed_at": "2026-11-11T01:31:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-92",
+      "observed_at": "2026-11-11T01:32:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-93",
+      "observed_at": "2026-11-11T01:33:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-94",
+      "observed_at": "2026-11-11T01:34:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-95",
+      "observed_at": "2026-11-11T01:35:00+00:00",
+      "unit": "C",
+      "value": "19.80"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-96",
+      "observed_at": "2026-11-11T01:36:00+00:00",
+      "unit": "C",
+      "value": "19.90"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-97",
+      "observed_at": "2026-11-11T01:37:00+00:00",
+      "unit": "C",
+      "value": "20.00"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-98",
+      "observed_at": "2026-11-11T01:38:00+00:00",
+      "unit": "C",
+      "value": "20.10"
+    },
+    {
+      "device": "sensor1",
+      "event_id": "event-99",
+      "observed_at": "2026-11-11T01:39:00+00:00",
+      "unit": "C",
+      "value": "20.20"
+    }
+  ]
+}
